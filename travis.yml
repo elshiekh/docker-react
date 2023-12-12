@@ -18,7 +18,7 @@ deploy:
   bucket_name: "elasticbeanstalk-us-east-1-457889487031"
   bucket_path: "docker-react"
   on:
-    branch: main
+    branch: master
 
 
 # docker run -e CI=true alshiekhosman/docker-react npm run test -- --coverage
