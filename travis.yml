@@ -19,6 +19,8 @@ deploy:
   bucket_path: "docker-react"
   on:
     branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
 
 
 # docker run -e CI=true alshiekhosman/docker-react npm run test -- --coverage
