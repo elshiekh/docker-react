@@ -10,7 +10,6 @@ COPY . .
 
 CMD ["npm", "run", "start"]
 
-
 # docker build . 
 #docker build -f Dockerfile.dev .
 #docker run c6d5c478ed2378fa7dee724043
